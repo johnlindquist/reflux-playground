@@ -1,0 +1,21 @@
+{
+  "name": "reflux-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "localforage": "^1.2.0",
+    "react": "^0.12.1",
+    "lodash": "^2.4.1",
+    "reflux": "^0.2.1",
+    "watchify": "^2.2.1",
+    "browserify": "^7.0.2",
+    "reactify": "^0.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "watchify -t [reactify --es6] app/app.jsx -o dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
