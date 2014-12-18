@@ -1,3 +1,3 @@
-clone
-npm install
-npm start
+* clone
+* npm install
+* npm start
